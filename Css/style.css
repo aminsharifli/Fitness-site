@@ -1,0 +1,89 @@
+z/* reset */
+* { box-sizing: border-box }
+html, body, div, iframe, h1, h2, h3, h4, h5, h6, p, pre,
+img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figure, figcaption, footer, header,  
+main, menu, nav, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body { line-height: 1 }
+ul, menu { list-style: none }
+table { border-collapse: collapse }
+a { 
+	text-decoration: none; 
+	color: inherit;
+}
+/* Color */
+:root {
+    --fgreen: #a1c927;
+    --fred: #fd634d;
+}
+/* Header */
+header{
+	background: url(../img/header-bg.png) 55% 60%/cover;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+nav{padding: 40px 50px;}
+nav img{width: 250px;}
+menu li a{
+	font: 1.2em 'Avenir Next Rounded Std';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+	transition: .5s ease;
+}
+menu li a:hover{
+	color: var(--fgreen);
+	text-shadow: 2px 1px 3px black;
+}
+menu li {
+	padding: 10px 0;
+}
+menu{
+	padding: 10px 0;
+}
+#header-end { 
+    position: absolute;
+    width: 100%;
+    bottom: 140px;
+}
+h1, h5 {
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 { font-size: 2em }
+h5 {
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+h1 span { color: var(--fgreen) }
+h5 span { color: var(--fred) }
+
+@media only screen and (min-width: 768px){
+	header { text-align: initial; }
+	nav img{width: initial;}
+    menu { float: right; }
+    menu li { 
+        display: inline-block; 
+        padding: 0 1.8vw;
+    }
+	menu li a{font-size: .9em;}
+    h1 { font-size: 2.5em }
+    h5 { 
+        text-align: right;
+        padding: 10px 20px;
+    }
+    #header-end { 
+        width: initial;
+        left: 100px;
+    }
+}
