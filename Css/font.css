@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @font-face {
   font-family: 'Avenir Next Rounded Std'; 
   src: url('../font/Avenir/AvenirNextRoundedStd-Reg.woff'); 
@@ -6,4 +7,8 @@
 @font-face {
   font-family: 'Myriad Pro'; 
   src: url('../font/Myriad/MYRIADPRO-REGULAR.OTF'); 
+}
+@font-face{
+  font-family: 'ProximaNova';
+  src: url('../Font/ProximaNova/Fontspring-DEMO-proximanova-regular.otf');
 }

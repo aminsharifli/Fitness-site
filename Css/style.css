@@ -40,10 +40,19 @@ menu li a{
     color: #fff;
 	transition: .5s ease;
 }
+/* Hover */
 menu li a:hover{
 	color: var(--fgreen);
 	text-shadow: 2px 1px 3px black;
 }
+.box a:hover{
+	text-shadow: 2px 1px 3px black;
+}
+.artpadding a:hover{
+    text-shadow: 1px 0px 2px black;
+}
+
+
 menu li {
 	padding: 10px 0;
 }
@@ -55,18 +64,137 @@ menu{
     width: 100%;
     bottom: 140px;
 }
+/* h1,2,3,4,5,6,7,8 */
 h1, h5 {
     font-family: 'Myriad Pro';
     text-transform: uppercase;
     color: #fff;
 }
 h1 { font-size: 2em }
+h2 {
+    font: 1.5em 'Open Sans', sans-serif;
+    padding: 1em 0; 
+}
+h3 {
+    font: 2.1em 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+h6 {
+    font: .8em Montserrat;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h4{
+  font: 2.8em 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+
 h5 {
     font-size: 1em;
     letter-spacing: 3px;
 }
 h1 span { color: var(--fgreen) }
 h5 span { color: var(--fred) }
+/* Background */
+.bg-green{background: var(--fgreen);}
+.bg-red{background: var(--fred);}
+.bg-white{background: white;}
+/* Text Color */
+.txt-green{color: var(--fgreen);}
+.txt-red{color: var(--fred);}
+.txt-white{color: white;}
+.icon-gray{color: #e3e9ea;}
+#fc{color: #2e3192;}
+#tw{color: #00aeef;}
+#yt{color: #ed3123;}
+#in{color: #171a8f;}
+/* Photos */
+#fitnessfirst { background: url('../img/1.jpg') center/cover; }
+#yourbody { background: url('../img/2.jpg') center/cover; }
+#lifestyle { background: url('../img/4.jpg') center/cover; }
+#summeroffun { background: url('../img/3.jpg') center/cover; }
+#grape { background: url('../img/5.jpg') center/cover; }
+#mango { background: url('../img/6.jpg') center/cover; }
+#footer {background: url('../img/footer-1.png') center/cover;}
+#footer2{background: #0d1119;}
+/* Main */
+.vh50 { height: 50vh; }
+.vh100 { height: 100vh;}
+.artpadding { padding: 125px 40px 0 40px }
+.acenter { text-align: center;}
+.aright { float: right;}
+.box-container{padding: 68px 0}
+article.box { padding: 34px 10px; }
+article.box i { font-size: 2.7em; }
+.box p {font: .87em 'ProximaNova';}
+.box a{
+    font: .9em 'ProximaNova';
+    transition: .3s ease;
+}
+.center-box i {padding: 24px 0;}
+.center-box p{
+  font: .87em 'Open Sans';
+  color: rgb(101, 110, 116);
+  padding: 0 0 14px 0;
+}
+.center-box a{
+    text-decoration-line: underline;
+}
+.artpadding i {font-size: 1.5em;}
+.artpadding p {font: .87em 'ProximaNova';}
+.boxshadow{box-shadow: -5px 1px 19px -3px rgba(0,0,0,0.75);}
+.artpadding a{transition: .3s ease;}
+.textss p {
+  font: 1em 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+}
+.textss{
+    padding: 250px 0 0 0;
+}
+.bold{
+  font: .9em 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 68px 0 0 0;
+}
+.n {
+  font: .8em 'Open Sans', sans-serif;
+  color: #5e6d7b;
+  padding: 30px 0 0 0 ;
+}
+.iconss i {
+    font-size: 50px;
+    transition: .3s ease;
+}
+.iconss{padding: 30px 0 0 0 ;}
+.resources{padding: 0 20px 0 0;}
+.forms form input{
+  font: .87em 'ProximaNova';
+  color: rgb(131, 150, 159);
+  line-height: 1.2;
+  text-align: left;
+  padding: 12px;
+  border-radius: 4px;
+}
+#email{width: 300px;}
+.forms button{
+    font: .87em 'ProximaNova';
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  background: var(--fgreen);
+  padding: 12px 26px;
+  border-radius: 4px;
+  transition: .3s ease;
+}
+.forms button:hover{
+    background: #dbfd74;
+    transform: scale(1.05);
+}
+.forms {padding: 0 0 590px 0;}
+.iconss i:hover{
+    transform: scale(1.05);
+    text-shadow: 2px 1px 2px white;
+}
 
 @media only screen and (min-width: 768px){
 	header { text-align: initial; }
@@ -86,4 +214,22 @@ h5 span { color: var(--fred) }
         width: initial;
         left: 100px;
     }
+    /* row - col */
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .box { width: 22.5%; }
+    .col33 { width: 33.33%; }
+    .col66 { width: 66.66%; }
+    .col44 { width: 44%;}
+    /* main */
+    .container { 
+        max-width: 1180px;
+        margin: auto;
+    }
+    article.box { padding: 34px 10px;}
+    .float-left { float: left }
+    .float-right { float: right }
 }
