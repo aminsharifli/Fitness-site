@@ -34,7 +34,7 @@ header{
 nav{padding: 40px 50px;}
 nav img{width: 250px;}
 menu li a{
-	font: 1.2em 'Avenir Next Rounded Std';
+	font: 1.2em 'Open Sans', sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #fff;
@@ -127,9 +127,9 @@ h5 span { color: var(--fred) }
 .box-container{padding: 68px 0}
 article.box { padding: 34px 10px; }
 article.box i { font-size: 2.7em; }
-.box p {font: .87em 'ProximaNova';}
+.box p {font: .87em 'Open Sans', sans-serif;}
 .box a{
-    font: .9em 'ProximaNova';
+    font: .9em 'Open Sans', sans-serif;;
     transition: .3s ease;
 }
 .center-box i {padding: 24px 0;}
@@ -142,7 +142,7 @@ article.box i { font-size: 2.7em; }
     text-decoration-line: underline;
 }
 .artpadding i {font-size: 1.5em;}
-.artpadding p {font: .87em 'ProximaNova';}
+.artpadding p {font: .87em 'Open Sans', sans-serif;}
 .boxshadow{box-shadow: -5px 1px 19px -3px rgba(0,0,0,0.75);}
 .artpadding a{transition: .3s ease;}
 .textss p {
@@ -169,7 +169,7 @@ article.box i { font-size: 2.7em; }
 .iconss{padding: 30px 0 0 0 ;}
 .resources{padding: 0 20px 0 0;}
 .forms form input{
-  font: .87em 'ProximaNova';
+  font: .87em 'Open Sans', sans-serif;
   color: rgb(131, 150, 159);
   line-height: 1.2;
   text-align: left;
@@ -178,7 +178,7 @@ article.box i { font-size: 2.7em; }
 }
 #email{width: 300px;}
 .forms button{
-    font: .87em 'ProximaNova';
+    font: .87em 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
   line-height: 1.2;
   background: var(--fgreen);
