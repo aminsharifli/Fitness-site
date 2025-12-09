@@ -175,6 +175,7 @@ article.box i { font-size: 2.7em; }
   text-align: left;
   padding: 12px;
   border-radius: 4px;
+  margin: 0 0 15px 0;
 }
 #email{width: 300px;}
 .forms button{
@@ -185,6 +186,9 @@ article.box i { font-size: 2.7em; }
   padding: 12px 26px;
   border-radius: 4px;
   transition: .3s ease;
+}
+.forms form{
+    margin: 15px 0 0 0;
 }
 .forms button:hover{
     background: #dbfd74;
